@@ -1,0 +1,21 @@
+15:09:28.656 [main] DEBUG project.Main - debug
+15:11:03.833 [main] INFO  project.Main - info
+15:11:03.837 [main] ERROR project.Main - error
+15:11:03.837 [main] FATAL project.Main - fatal
+15:11:03.837 [main] WARN  project.Main - warn
+15:11:03.837 [main] DEBUG project.Main - debug
+15:11:44.123 [main] INFO  project.Main - info
+15:11:44.127 [main] ERROR project.Main - error
+15:11:44.127 [main] FATAL project.Main - fatal
+15:11:44.127 [main] WARN  project.Main - warn
+15:11:44.127 [main] DEBUG project.Main - debug
+15:11:51.543 [main] INFO  project.Main - info
+15:11:51.547 [main] ERROR project.Main - error
+15:11:51.548 [main] FATAL project.Main - fatal
+15:11:51.548 [main] WARN  project.Main - warn
+15:11:51.548 [main] DEBUG project.Main - debug
+15:18:43.065 [main] INFO  project.Main - dodawanie liczb
+15:19:14.787 [main] INFO  project.Main - dodawanie liczb
+15:22:27.730 [main] INFO  project.Main - dodawanie liczb a i b
+15:22:44.059 [main] INFO  project.Main - dodawanie liczb a i b
+15:22:44.063 [main] INFO  project.Main - dodawanie c i d
