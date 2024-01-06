@@ -27,5 +27,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jsoup-1.17.1" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
