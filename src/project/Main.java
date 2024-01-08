@@ -3,6 +3,7 @@ package project;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -24,21 +25,21 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.URL;
 
-//public class Main extends Application {
-//    public void start(Stage primaryStage) throws Exception {
-//        Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
-//        Scene scene = new Scene(root, 1000, 600);
-//        primaryStage.setScene(scene);
-//        primaryStage.setTitle("Ceny Paliw Live");
-//        primaryStage.show();
-//    }
-public class Main {
+public class Main extends Application {
+     public void start(Stage primaryStage) throws Exception {
+
+         Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
+         Scene scene = new Scene(root, 1000, 725);
+         primaryStage.setScene(scene);
+         primaryStage.setTitle("Ceny Paliw Live");
+         primaryStage.show();
+    }
     private static final Logger logger = LogManager.getLogger(Main.class);
     private static String url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/";
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> createAndShowGUI());
+//        SwingUtilities.invokeLater(() -> createAndShowGUI());
+        launch(args);
     }
-
 
     private static void createAndShowGUI() {
         JFrame frame = new JFrame("Ceny Paliw Live");
@@ -61,7 +62,7 @@ public class Main {
         JButton fetchDataButtonPB98 = new JButton(new ImageIcon("resources\\pb98r.png"));
         JButton fetchDataButtonON = new JButton(new ImageIcon("resources\\ON.png"));
         JButton fetchDataButtonLPG = new JButton(new ImageIcon("resources\\LPG.png"));
-        JButton wykresyButton = new JButton("Wykresy cen");
+        JButton wykresyButton = new JButton(new ImageIcon("resources\\wykres.jpg"));
 
         // Ustawienie preferowanego rozmiaru dla przycisków
         Dimension buttonSize = new Dimension(100, 100);
@@ -149,10 +150,7 @@ public class Main {
         }
     }
 
-
-
-
-    private static void checkPB() {
+    public static void checkPB() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -191,7 +189,7 @@ public class Main {
             logger.error("Błąd podczas pobierania strony");
         }
     }
-    private static void checkPB98() {
+    public static void checkPB98() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -230,7 +228,7 @@ public class Main {
             logger.error("Błąd podczas pobierania strony");
         }
     }
-    private static void checkON() {
+    public static void checkON() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -269,7 +267,7 @@ public class Main {
             logger.error("Błąd podczas pobierania strony");
         }
     }
-    private static void checkLPG() {
+    public static void checkLPG() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -307,12 +305,6 @@ public class Main {
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
         }
-    }
-
-
-
-    private static void wykresy(JTextArea textArea){
-
     }
 
 
