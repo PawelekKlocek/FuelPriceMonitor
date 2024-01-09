@@ -1,6 +1,7 @@
 package project;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
@@ -19,16 +20,16 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.URL;
 
 public class Main extends Application {
      public void start(Stage primaryStage) throws Exception {
 
-         Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
+         FXMLLoader loader =new  FXMLLoader(getClass().getResource("Main.fxml"));
+         Parent root = loader.load();
+         MainController controller = loader.getController();
+         controller.setMain(this);
          Scene scene = new Scene(root, 1000, 725);
          primaryStage.setScene(scene);
          primaryStage.setTitle("Ceny Paliw Live");
@@ -40,70 +41,12 @@ public class Main extends Application {
 //        SwingUtilities.invokeLater(() -> createAndShowGUI());
         launch(args);
     }
-
-    private static void createAndShowGUI() {
-        JFrame frame = new JFrame("Ceny Paliw Live");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.getContentPane().setBackground(Color.BLACK);
-
-        JPanel mainPanel = new JPanel(new BorderLayout());
-        mainPanel.setBackground(Color.BLACK);
-
-        JTextArea outputTextArea = new JTextArea();
-        JTextArea outputText = new JTextArea();
-        JLabel imageLabel = new JLabel();
-
-
-
-        outputTextArea.setEditable(false);
-        JScrollPane scrollPane = new JScrollPane(outputTextArea);
-
-        JButton fetchDataButtonPB95 = new JButton(new ImageIcon("resources\\pb95.png"));
-        JButton fetchDataButtonPB98 = new JButton(new ImageIcon("resources\\pb98r.png"));
-        JButton fetchDataButtonON = new JButton(new ImageIcon("resources\\ON.png"));
-        JButton fetchDataButtonLPG = new JButton(new ImageIcon("resources\\LPG.png"));
-        JButton wykresyButton = new JButton(new ImageIcon("resources\\wykres.jpg"));
-
-        // Ustawienie preferowanego rozmiaru dla przycisków
-        Dimension buttonSize = new Dimension(100, 100);
-        fetchDataButtonPB95.setPreferredSize(buttonSize);
-        fetchDataButtonPB98.setPreferredSize(buttonSize);
-        fetchDataButtonON.setPreferredSize(buttonSize);
-        fetchDataButtonLPG.setPreferredSize(buttonSize);
-        wykresyButton.setPreferredSize(buttonSize);
-
-        fetchDataButtonPB95.addActionListener(e -> checkPB());
-        fetchDataButtonPB98.addActionListener(e -> checkPB98());
-        fetchDataButtonON.addActionListener(e -> checkON());
-        fetchDataButtonLPG.addActionListener(e -> checkLPG());
-        wykresyButton.addActionListener(e -> {
-            try {
-                fetchChart();
-            } catch (IOException ex) {
-                throw new RuntimeException(ex);
-            }
-        });
-
-        // Ustawienie layoutu dla panelu przycisków
-        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 5));
-        buttonPanel.add(fetchDataButtonPB95);
-        buttonPanel.add(fetchDataButtonPB98);
-        buttonPanel.add(fetchDataButtonON);
-        buttonPanel.add(fetchDataButtonLPG);
-        buttonPanel.add(wykresyButton);
-
-        mainPanel.add(buttonPanel, BorderLayout.NORTH);
-        mainPanel.add(scrollPane, BorderLayout.CENTER);
-        mainPanel.add(imageLabel, BorderLayout.WEST);
-
-        frame.getContentPane().add(mainPanel);
-        frame.setSize(1000, 600);
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+    protected void exitApplication(){
+        Platform.exit();
     }
 
 
-    private static void fetchChart() throws IOException {
+    public static BufferedImage fetchChart(String whichchart) throws IOException {
         url = "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw";
         String savePath = "charts\\";
 
@@ -124,22 +67,21 @@ public class Main extends Application {
                 }
             }
             BufferedImage chart1 = ImageIO.read(new File("charts\\chart6_0.png"));
+            logger.info("utworzono plik chart6_0.png");
             BufferedImage chart2 = ImageIO.read(new File("charts\\chart7_0.png"));
+            logger.info("utworzono plik chart7_0.png");
             BufferedImage chart3 = ImageIO.read(new File("charts\\chart8_0.png"));
+            logger.info("utworzono plik chart8_0.png");
 
-            // Swing elements: !
-            JLabel pbLabel = new JLabel(new ImageIcon(chart1));
-            JLabel onLabel = new JLabel(new ImageIcon(chart2));
-            JLabel LPGlabel = new JLabel(new ImageIcon(chart3));
-            JFrame newDataFrame = new JFrame("Wykres paliwa PB");
-            newDataFrame.setSize(1000, 1000);
-            newDataFrame.add(pbLabel);
-            newDataFrame.add(onLabel);
-            newDataFrame.add(LPGlabel);
-            newDataFrame.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
-            newDataFrame.setLocationRelativeTo(null);
-            newDataFrame.setVisible(true);
+
+            if (whichchart.equals("chart1")){return chart1;}
+            else if (whichchart.equals("chart2")){return chart2;}
+            else if (whichchart.equals("chart3")){return chart3;}
+            else {logger.warn("nie wybrano poprawnego wykresu! Wybierz chart 1-3");}
         }
+        logger.error("Nie załadowano zdjęć");
+        return null;
+
     }
 
     private static void downloadImage(String imgUrl, String savePath) throws IOException {
@@ -150,7 +92,7 @@ public class Main extends Application {
         }
     }
 
-    public static void checkPB() {
+    public static String checkPB() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -172,14 +114,14 @@ public class Main extends Application {
                     result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
                     result.append("\n");
                 }
-
-                JFrame newDataFrame = new JFrame("Dane dla PB 95");
-                JTextArea newDataTextArea = new JTextArea(result.toString());
-                JScrollPane newDataScrollPane = new JScrollPane(newDataTextArea);
-                newDataFrame.getContentPane().add(newDataScrollPane);
-                newDataFrame.setSize(600, 500);
-                newDataFrame.setLocationRelativeTo(null);
-                newDataFrame.setVisible(true);
+//                JFrame newDataFrame = new JFrame("Dane dla PB 95");
+//                JTextArea newDataTextArea = new JTextArea(result.toString());
+//                JScrollPane newDataScrollPane = new JScrollPane(newDataTextArea);
+//                newDataFrame.getContentPane().add(newDataScrollPane);
+//                newDataFrame.setSize(600, 500);
+//                newDataFrame.setLocationRelativeTo(null);
+//                newDataFrame.setVisible(true);
+                    return result.toString();
 
             }
             else{
@@ -188,8 +130,9 @@ public class Main extends Application {
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
         }
+        return null;
     }
-    public static void checkPB98() {
+    public static String checkPB98() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -211,14 +154,7 @@ public class Main extends Application {
                     result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
                     result.append("\n");
                 }
-
-                JFrame newDataFrame = new JFrame("Dane dla PB 98");
-                JTextArea newDataTextArea = new JTextArea(result.toString());
-                JScrollPane newDataScrollPane = new JScrollPane(newDataTextArea);
-                newDataFrame.getContentPane().add(newDataScrollPane);
-                newDataFrame.setSize(600, 500);
-                newDataFrame.setLocationRelativeTo(null);
-                newDataFrame.setVisible(true);
+                return result.toString();
 
             }
             else{
@@ -227,8 +163,9 @@ public class Main extends Application {
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
         }
+        return null;
     }
-    public static void checkON() {
+    public static String checkON() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -250,14 +187,7 @@ public class Main extends Application {
                     result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
                     result.append("\n");
                 }
-
-                JFrame newDataFrame = new JFrame("Dane dla ON");
-                JTextArea newDataTextArea = new JTextArea(result.toString());
-                JScrollPane newDataScrollPane = new JScrollPane(newDataTextArea);
-                newDataFrame.getContentPane().add(newDataScrollPane);
-                newDataFrame.setSize(600, 500);
-                newDataFrame.setLocationRelativeTo(null);
-                newDataFrame.setVisible(true);
+                return result.toString();
 
             }
             else{
@@ -266,8 +196,9 @@ public class Main extends Application {
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
         }
+        return null;
     }
-    public static void checkLPG() {
+    public static String checkLPG() {
         url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/";
         try {
             Connection.Response response = Jsoup.connect(url).execute();
@@ -289,14 +220,7 @@ public class Main extends Application {
                     result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
                     result.append("\n");
                 }
-
-                JFrame newDataFrame = new JFrame("Dane dla LPG");
-                JTextArea newDataTextArea = new JTextArea(result.toString());
-                JScrollPane newDataScrollPane = new JScrollPane(newDataTextArea);
-                newDataFrame.getContentPane().add(newDataScrollPane);
-                newDataFrame.setSize(600, 500);
-                newDataFrame.setLocationRelativeTo(null);
-                newDataFrame.setVisible(true);
+                return result.toString();
 
             }
             else{
@@ -305,6 +229,7 @@ public class Main extends Application {
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
         }
+        return null;
     }
 
 
