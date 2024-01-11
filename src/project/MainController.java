@@ -2,9 +2,14 @@ package project;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.stage.Stage;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -37,21 +42,7 @@ public class MainController {
             System.err.println("dataTextArea is null");
         }
     }
-    public void displayChart1(ActionEvent event) {
-        try {
-            List<BufferedImage> chartList = main.fetchChart();
 
-            if (chartList != null && !chartList.isEmpty()) {
-                BufferedImage chart1 = chartList.get(0);
-                Image chartImage = SwingFXUtils.toFXImage(chart1, null);
-                chartImageView.setImage(chartImage);
-            } else {
-                System.err.println("Error loading chart");
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public void setPb95Data(ActionEvent event) {
         if (main != null) {
@@ -91,11 +82,29 @@ public class MainController {
         showData(onData);
     }
 
-    public void refreshData(){
+    public void refreshData() throws IOException {
         setLpgDataData(null);
         setOnData(null);
         setPb95Data(null);
         setPb98Data(null);
+        Main.fetchChart();
+    }
+    public void openNewScene(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Pb95Scene.fxml"));
+            Parent root = loader.load();
+
+            Pb95SceneController pb95SceneController = loader.getController();
+
+            Scene newScene = new Scene(root);
+            Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            currentStage.setTitle("Ceny Paliw Live - Wykresy");
+            currentStage.setScene(newScene);
+            currentStage.show();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 

@@ -36,10 +36,18 @@ public class Main extends Application {
 
          ExecutorService executorService = Executors.newFixedThreadPool(4);
          List<Runnable> tasks = new ArrayList<>();
-         tasks.add(() -> fetchDataAndDisplayPB(controller));
-         tasks.add(() -> fetchDataAndDisplayPB98(controller));
-         tasks.add(() -> fetchDataAndDisplayON(controller));
-         tasks.add(() -> fetchDataAndDisplayLPG(controller));
+         tasks.add(() -> fetchDataPB(controller));
+         tasks.add(() -> fetchDataPB98(controller));
+         tasks.add(() -> fetchDataON(controller));
+         tasks.add(() -> fetchDataLPG(controller));
+         tasks.add(() -> {
+             try {
+                 fetchChart();
+                 logger.info("Udało się pobrać wykresy");
+             } catch (IOException e) {
+                 throw new RuntimeException(e);
+             }
+         });
 
          for (Runnable task : tasks) {
              executorService.submit(task);
@@ -51,19 +59,19 @@ public class Main extends Application {
      }
 
 
-    private static void fetchDataAndDisplayPB(MainController controller) {
+    private static void fetchDataPB(MainController controller) {
         Platform.runLater(() -> controller.setPb95Data(null));
     }
 
-    private static void fetchDataAndDisplayPB98(MainController controller) {
+    private static void fetchDataPB98(MainController controller) {
         Platform.runLater(() -> controller.setPb98Data(null));
     }
 
-    private static void fetchDataAndDisplayON(MainController controller) {
+    private static void fetchDataON(MainController controller) {
         Platform.runLater(() -> controller.setOnData(null));
     }
 
-    private static void fetchDataAndDisplayLPG(MainController controller) {
+    private static void fetchDataLPG(MainController controller) {
         Platform.runLater(() -> controller.setLpgDataData(null));
     }
 
@@ -77,14 +85,12 @@ public class Main extends Application {
     }
 
 
-    public static List<BufferedImage> fetchChart() throws IOException {
+    public static void fetchChart() throws IOException {
         url = "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw";
         String savePath = "charts\\";
 
         Connection.Response response = Jsoup.connect(url).execute();
         logger.info("Nawiązywanie połączenia...");
-        ArrayList<BufferedImage> chartList = new ArrayList<>();
-
 
         if (response.statusCode() == 200) {
             logger.info("Nawiązano połączenie");
@@ -105,15 +111,8 @@ public class Main extends Application {
             logger.info("utworzono plik chart7_0.png");
             BufferedImage chart3 = ImageIO.read(new File("charts\\chart8_0.png"));
             logger.info("utworzono plik chart8_0.png");
-            chartList.add(chart1);
-            chartList.add(chart2);
-            chartList.add(chart3);
-            return chartList;
-
 
         }
-        logger.error("Nie załadowano zdjęć");
-        return null;
 
     }
 

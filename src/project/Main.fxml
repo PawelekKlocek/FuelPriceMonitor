@@ -57,7 +57,7 @@
                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                              </GridPane.margin>
                          </Button>
-                        <Button fx:id="fetchDataButtonPB951" onAction="#displayChart1" prefHeight="98.0" prefWidth="235.0" style="-fx-background-color: #3797f0;" text="Wykresy" textFill="WHITE">
+                        <Button fx:id="fetchDataButtonPB951" onAction="#openNewScene" prefHeight="98.0" prefWidth="235.0" style="-fx-background-color: #3797f0;" text="Wykresy" textFill="WHITE">
                            <GridPane.margin>
                               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                            </GridPane.margin>

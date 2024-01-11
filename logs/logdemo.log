@@ -947,3 +947,577 @@
 22:50:11.066 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
 22:50:11.111 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
 22:50:11.160 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:09:14.287 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:09:14.450 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:09:14.508 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:09:14.553 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:09:14.643 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:09:14.716 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:09:14.755 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:09:14.793 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:09:14.833 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:09:14.870 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:09:14.933 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:09:14.972 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:09:15.011 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:15:08.873 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:15:09.056 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:15:09.145 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:15:09.188 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:15:09.273 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:15:09.344 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:15:09.392 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:15:09.439 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:15:09.484 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:15:09.541 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:15:09.621 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:15:09.673 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:15:09.721 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:15:13.096 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:15:13.096 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:15:13.259 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:15:13.451 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:15:13.641 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:15:13.712 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:15:13.718 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:15:13.725 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:15:35.166 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:15:35.313 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:15:35.363 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:15:35.423 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:15:35.468 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:15:35.531 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:15:35.575 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:15:35.627 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:15:35.662 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:15:35.724 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:15:35.787 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:15:35.827 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:15:35.876 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:15:41.752 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:15:41.814 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:15:41.854 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:15:41.903 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:15:41.967 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:15:42.006 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:15:42.086 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:15:42.201 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:15:42.387 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:15:42.423 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:15:42.460 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:15:42.510 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:15:42.572 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:15:56.995 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:15:56.995 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:15:57.182 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:15:57.398 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:15:57.577 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:15:57.651 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:15:57.655 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:15:57.661 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:18:03.128 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:18:03.312 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:18:03.423 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:18:03.500 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:18:03.547 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:18:03.594 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:18:03.648 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:18:03.694 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:18:03.793 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:18:03.838 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:18:03.891 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:18:03.944 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:18:03.989 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:18:05.614 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:18:05.616 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:18:05.771 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:18:05.943 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:18:06.115 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:18:06.195 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:18:06.200 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:18:06.206 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:18:30.603 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:18:30.603 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:18:30.793 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:18:30.961 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:18:31.121 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:18:31.127 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:18:31.131 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:18:31.136 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:18:34.815 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:18:34.815 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:18:34.976 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:18:35.141 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:18:35.279 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:18:35.283 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:18:35.286 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:18:35.290 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:22:33.814 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:22:34.019 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:22:34.117 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:22:34.173 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:22:34.265 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:22:34.321 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:22:34.378 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:22:34.434 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:22:34.485 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:22:34.572 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:22:34.618 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:22:34.698 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:22:34.740 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:25:23.573 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:25:23.751 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:25:23.847 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:25:23.910 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:25:23.960 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:25:23.994 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:25:24.039 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:25:24.076 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:25:24.146 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:25:24.192 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:25:24.243 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:25:24.312 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:25:24.361 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:25:25.382 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:25:25.382 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:25:25.579 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:25:25.764 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:25:25.938 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:25:26.002 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:25:26.006 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:25:26.014 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:25:26.014 [JavaFX Application Thread] ERROR project.Main - Nie załadowano zdjęć
+23:26:57.827 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:26:58.052 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:26:58.144 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:26:58.213 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:26:58.270 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:26:58.365 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:26:58.406 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:26:58.461 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:26:58.551 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:26:58.601 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:26:58.649 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:26:58.692 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:26:58.756 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:26:59.463 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:26:59.463 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:26:59.631 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:26:59.797 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:26:59.924 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:27:00.009 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:27:00.014 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:27:00.020 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:27:00.020 [JavaFX Application Thread] ERROR project.Main - Nie załadowano zdjęć
+23:29:17.070 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:29:17.386 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:29:17.585 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:29:17.714 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:29:17.773 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:29:18.032 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:29:18.186 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:29:18.288 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:29:18.491 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:29:18.664 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:29:18.722 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:29:18.791 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:29:18.840 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:29:19.492 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:29:19.492 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:29:19.734 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:29:19.934 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:29:20.125 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:29:20.192 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:29:20.197 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:29:20.204 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:29:20.204 [JavaFX Application Thread] ERROR project.Main - Nie załadowano zdjęć
+23:37:33.756 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:37:33.944 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:37:34.149 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:37:34.466 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:37:34.773 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:37:34.863 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:37:34.970 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:37:35.090 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:37:35.166 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:37:35.375 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:37:35.663 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:37:35.826 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:37:36.003 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:37:39.430 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:37:39.430 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:37:39.690 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:37:39.990 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:37:40.184 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:37:40.273 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:37:40.277 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:37:40.283 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:37:40.283 [JavaFX Application Thread] ERROR project.Main - Nie załadowano zdjęć
+23:38:07.904 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:38:08.554 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:38:10.001 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:38:11.727 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:38:12.137 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:38:12.321 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:38:13.015 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:38:13.524 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:38:14.180 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:38:14.649 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:38:15.061 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:38:15.220 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:38:15.674 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:38:27.034 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:38:27.035 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:38:27.497 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:38:27.736 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:38:27.965 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:38:28.035 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:38:28.040 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:38:28.046 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:38:28.046 [JavaFX Application Thread] ERROR project.Main - Nie załadowano zdjęć
+23:40:45.632 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:40:45.997 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:40:46.513 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:40:46.694 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:40:47.534 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:40:47.827 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:40:48.142 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:40:48.334 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:40:48.545 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:40:48.865 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:40:49.152 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:40:49.407 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:40:50.275 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:40:53.778 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:40:53.778 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:40:54.074 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:40:54.339 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:40:54.593 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:40:54.677 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:40:54.686 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:40:54.691 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:41:59.311 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:42:01.346 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:42:03.052 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:42:04.723 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:42:06.161 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:42:07.246 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:42:08.275 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:42:08.992 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:42:09.691 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:42:11.045 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:42:11.045 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:42:11.243 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:42:11.444 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:42:11.639 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:42:11.732 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:42:11.738 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:42:11.746 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:42:11.845 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:42:12.264 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:42:12.681 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:42:13.082 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:48:00.740 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:48:01.699 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:48:02.511 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:48:03.431 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:48:04.342 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:48:05.247 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:48:06.060 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:48:06.911 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:48:08.005 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:48:08.952 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:48:11.276 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:48:12.083 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:48:12.973 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:48:17.462 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:48:17.462 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:48:17.667 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:48:17.869 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:48:18.073 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:48:18.144 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:48:18.149 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:48:18.156 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:50:45.137 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:50:45.501 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:50:45.834 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:50:46.038 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:50:46.316 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:50:46.527 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:50:46.723 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:50:46.928 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:50:47.472 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:50:47.651 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:50:47.784 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:50:47.882 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:50:47.994 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:50:51.991 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:50:51.991 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:50:52.178 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:50:52.416 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:50:52.665 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:50:52.731 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:50:52.736 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:50:52.743 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:51:45.440 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:51:45.880 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:51:46.455 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:51:46.753 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:51:47.045 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:51:47.501 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:51:47.740 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:51:48.062 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:51:48.363 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:51:48.770 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:51:49.085 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:51:49.499 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:51:49.810 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:51:51.736 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:51:51.736 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:51:51.951 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:51:52.098 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:51:52.397 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:51:52.513 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:51:52.517 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:51:52.523 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:51:57.570 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:51:57.570 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:51:57.875 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:51:58.141 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:51:58.387 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:51:58.393 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:51:58.399 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:51:58.404 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:52:33.940 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:52:33.941 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:52:34.076 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:52:34.224 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:52:34.405 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:52:34.409 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:52:34.413 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:52:34.417 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:52:40.480 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:52:40.480 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:52:40.652 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:52:40.801 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:52:40.997 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:52:41.000 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:52:41.005 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:52:41.009 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:55:57.062 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:55:57.235 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:55:57.299 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:55:57.348 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:55:57.407 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:55:57.455 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:55:57.503 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:55:57.571 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:55:57.630 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:55:57.672 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:55:57.714 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:55:57.756 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:55:57.801 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:56:02.953 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:56:02.953 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:56:03.137 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:56:03.302 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:56:03.475 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:56:03.538 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:56:03.542 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:56:03.550 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:56:16.002 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:56:16.002 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:56:16.151 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:56:16.272 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:56:16.433 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:56:16.439 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:56:16.445 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:56:16.449 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:56:30.492 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:56:30.671 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:56:30.731 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:56:30.781 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:56:30.823 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:56:30.867 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:56:30.906 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:56:30.944 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:56:31.018 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:56:31.060 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:56:31.381 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:56:31.424 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:56:31.466 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+23:56:52.767 [JavaFX Application Thread] INFO  project.Main - Nawiązywanie połączenia...
+23:56:52.767 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie
+23:56:52.970 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+23:56:53.133 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+23:56:53.288 [JavaFX Application Thread] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+23:56:53.353 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart6_0.png
+23:56:53.358 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart7_0.png
+23:56:53.364 [JavaFX Application Thread] INFO  project.Main - utworzono plik chart8_0.png
+23:59:06.114 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+23:59:06.352 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+23:59:06.437 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+23:59:06.502 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+23:59:06.601 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+23:59:06.656 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+23:59:06.717 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+23:59:06.765 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+23:59:06.806 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+23:59:06.844 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+23:59:06.924 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+23:59:07.041 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+23:59:07.099 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:05:51.683 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:05:51.967 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:05:52.077 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:05:52.130 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:05:52.151 [pool-3-thread-1] INFO  project.Main - Nawiązywanie połączenia...
+00:05:52.151 [pool-3-thread-1] INFO  project.Main - Nawiązano połączenie
+00:05:52.169 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:05:52.214 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:05:52.261 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:05:52.291 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:05:52.335 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:05:52.386 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:05:52.490 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:05:52.513 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:05:52.560 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:05:52.663 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:05:52.688 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:05:52.796 [pool-3-thread-1] INFO  project.Main - utworzono plik chart6_0.png
+00:05:52.800 [pool-3-thread-1] INFO  project.Main - utworzono plik chart7_0.png
+00:05:52.808 [pool-3-thread-1] INFO  project.Main - utworzono plik chart8_0.png
+00:05:52.809 [pool-3-thread-1] INFO  project.Main - Udało się pobrać wykresy
+00:05:52.843 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:06:47.990 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:06:48.276 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:06:48.373 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:06:48.421 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:06:48.474 [pool-3-thread-2] INFO  project.Main - Nawiązywanie połączenia...
+00:06:48.474 [pool-3-thread-2] INFO  project.Main - Nawiązano połączenie
+00:06:48.504 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:06:48.542 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:06:48.583 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:06:48.637 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:06:48.641 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:06:48.681 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:06:48.730 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:06:48.782 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:06:48.812 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:06:48.820 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:06:48.865 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:06:48.982 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:06:49.054 [pool-3-thread-2] INFO  project.Main - utworzono plik chart6_0.png
+00:06:49.059 [pool-3-thread-2] INFO  project.Main - utworzono plik chart7_0.png
+00:06:49.067 [pool-3-thread-2] INFO  project.Main - utworzono plik chart8_0.png
+00:06:49.068 [pool-3-thread-2] INFO  project.Main - Udało się pobrać wykresy
+00:10:30.859 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:10:31.009 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:10:31.075 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:10:31.126 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:10:31.185 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:10:31.250 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:10:31.296 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:10:31.336 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:10:31.359 [pool-3-thread-2] INFO  project.Main - Nawiązywanie połączenia...
+00:10:31.359 [pool-3-thread-2] INFO  project.Main - Nawiązano połączenie
+00:10:31.391 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:10:31.434 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:10:31.484 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:10:31.524 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:10:31.564 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:10:31.700 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:10:31.864 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:10:32.069 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:10:32.143 [pool-3-thread-2] INFO  project.Main - utworzono plik chart6_0.png
+00:10:32.148 [pool-3-thread-2] INFO  project.Main - utworzono plik chart7_0.png
+00:10:32.154 [pool-3-thread-2] INFO  project.Main - utworzono plik chart8_0.png
+00:10:32.154 [pool-3-thread-2] INFO  project.Main - Udało się pobrać wykresy
+00:13:53.984 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:13:54.303 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:13:54.373 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:13:54.420 [pool-3-thread-1] INFO  project.Main - Nawiązywanie połączenia...
+00:13:54.421 [pool-3-thread-1] INFO  project.Main - Nawiązano połączenie
+00:13:54.442 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:13:54.525 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:13:54.575 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:13:54.586 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:13:54.619 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:13:54.655 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:13:54.699 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:13:54.720 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:13:54.750 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:13:54.795 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:13:54.836 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:13:54.852 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:13:54.879 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:13:54.962 [pool-3-thread-1] INFO  project.Main - utworzono plik chart6_0.png
+00:13:54.967 [pool-3-thread-1] INFO  project.Main - utworzono plik chart7_0.png
+00:13:54.974 [pool-3-thread-1] INFO  project.Main - utworzono plik chart8_0.png
+00:13:54.975 [pool-3-thread-1] INFO  project.Main - Udało się pobrać wykresy
+00:14:38.366 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:14:38.543 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:14:38.614 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:14:38.671 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:14:38.714 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:14:38.750 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:14:38.762 [pool-3-thread-2] INFO  project.Main - Nawiązywanie połączenia...
+00:14:38.764 [pool-3-thread-2] INFO  project.Main - Nawiązano połączenie
+00:14:38.791 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:14:38.837 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:14:38.915 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:14:38.978 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:14:38.978 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:14:39.016 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:14:39.083 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:14:39.146 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:14:39.267 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:14:39.409 [pool-3-thread-2] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:14:39.480 [pool-3-thread-2] INFO  project.Main - utworzono plik chart6_0.png
+00:14:39.486 [pool-3-thread-2] INFO  project.Main - utworzono plik chart7_0.png
+00:14:39.490 [pool-3-thread-2] INFO  project.Main - utworzono plik chart8_0.png
+00:14:39.490 [pool-3-thread-2] INFO  project.Main - Udało się pobrać wykresy
+00:16:31.147 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:16:31.354 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:16:31.440 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:16:31.537 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:16:31.682 [pool-3-thread-1] INFO  project.Main - Nawiązywanie połączenia...
+00:16:31.683 [pool-3-thread-1] INFO  project.Main - Nawiązano połączenie
+00:16:31.730 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:16:31.825 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:16:31.910 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:16:32.026 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:16:32.118 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:16:32.231 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:16:32.329 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:16:32.415 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:16:32.416 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:16:32.456 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:16:32.491 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:16:32.583 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:16:32.649 [pool-3-thread-1] INFO  project.Main - utworzono plik chart6_0.png
+00:16:32.654 [pool-3-thread-1] INFO  project.Main - utworzono plik chart7_0.png
+00:16:32.661 [pool-3-thread-1] INFO  project.Main - utworzono plik chart8_0.png
+00:16:32.661 [pool-3-thread-1] INFO  project.Main - Udało się pobrać wykresy
+00:21:21.977 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-1/
+00:21:22.139 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-2/
+00:21:22.204 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-3/
+00:21:22.256 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-4/
+00:21:22.334 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1
+00:21:22.364 [pool-3-thread-1] INFO  project.Main - Nawiązywanie połączenia...
+00:21:22.364 [pool-3-thread-1] INFO  project.Main - Nawiązano połączenie
+00:21:22.402 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-1/
+00:21:22.440 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-2/
+00:21:22.491 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-3/
+00:21:22.535 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-4/
+00:21:22.580 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-1/
+00:21:22.653 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-2/
+00:21:22.743 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-3/
+00:21:22.762 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart6_0.png
+00:21:22.795 [JavaFX Application Thread] INFO  project.Main - Nawiązano połączenie ze strona https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-4/
+00:21:22.960 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart7_0.png
+00:21:23.107 [pool-3-thread-1] INFO  project.Main - Obraz został zapisany w: charts\chart8_0.png
+00:21:23.246 [pool-3-thread-1] INFO  project.Main - utworzono plik chart6_0.png
+00:21:23.254 [pool-3-thread-1] INFO  project.Main - utworzono plik chart7_0.png
+00:21:23.266 [pool-3-thread-1] INFO  project.Main - utworzono plik chart8_0.png
+00:21:23.266 [pool-3-thread-1] INFO  project.Main - Udało się pobrać wykresy
