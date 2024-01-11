@@ -31,22 +31,22 @@
                         <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Button fx:id="fetchDataButtonPB98" onAction="#pB98" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3776f0;" text="PB 98" textFill="WHITE" GridPane.rowIndex="2">
+                        <Button fx:id="fetchDataButtonPB98" onAction="#displayPB98" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3776f0;" text="PB 98" textFill="WHITE" GridPane.rowIndex="2">
                            <GridPane.margin>
                               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                            </GridPane.margin>
                         </Button>
-                        <Button fx:id="fetchDataButtonON" onAction="#oN" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3757f0;" text="ON" textFill="WHITE" GridPane.rowIndex="3">
+                        <Button fx:id="fetchDataButtonON" onAction="#displayON" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3757f0;" text="ON" textFill="WHITE" GridPane.rowIndex="3">
                            <GridPane.margin>
                               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                            </GridPane.margin>
                         </Button>
-                        <Button fx:id="fetchDataButtonPB95" onAction="#pB95" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3787f0;" text="PB 95" textFill="WHITE" GridPane.rowIndex="1">
+                        <Button fx:id="fetchDataButtonPB95" onAction="#displayPB95" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3787f0;" text="PB 95" textFill="WHITE" GridPane.rowIndex="1">
                            <GridPane.margin>
                               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                            </GridPane.margin>
                         </Button>
-                        <Button fx:id="fetchDataButtonLPG" onAction="#lPG" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3737f0;" text="LPG" textFill="WHITE" GridPane.rowIndex="4">
+                        <Button fx:id="fetchDataButtonLPG" onAction="#displayLPG" prefHeight="90.0" prefWidth="181.0" style="-fx-background-color: #3737f0;" text="LPG" textFill="WHITE" GridPane.rowIndex="4">
                            <GridPane.margin>
                               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                            </GridPane.margin>
@@ -73,6 +73,11 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </TextArea>
-       <ImageView fx:id="chartImageView" fitHeight="300" fitWidth="400" layoutX="406.0" layoutY="154.0" />
+       <ImageView fx:id="chartImageView" fitHeight="300" fitWidth="400" layoutX="398.0" layoutY="120.0" />
+      <AnchorPane layoutX="395.0" layoutY="549.0" prefHeight="106.0" prefWidth="421.0">
+         <children>
+            <Button layoutX="162.0" layoutY="40.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="52.0" prefWidth="97.0" style="-fx-background-color: #3917f0;" text="Odśwież dane" textFill="WHITE" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

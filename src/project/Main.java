@@ -2,9 +2,7 @@ package project;
 
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -13,15 +11,16 @@ import org.apache.logging.log4j.Logger;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.net.URL;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Main extends Application {
      public void start(Stage primaryStage) throws Exception {
@@ -34,11 +33,43 @@ public class Main extends Application {
          primaryStage.setScene(scene);
          primaryStage.setTitle("Ceny Paliw Live");
          primaryStage.show();
+
+         ExecutorService executorService = Executors.newFixedThreadPool(4);
+         List<Runnable> tasks = new ArrayList<>();
+         tasks.add(() -> fetchDataAndDisplayPB(controller));
+         tasks.add(() -> fetchDataAndDisplayPB98(controller));
+         tasks.add(() -> fetchDataAndDisplayON(controller));
+         tasks.add(() -> fetchDataAndDisplayLPG(controller));
+
+         for (Runnable task : tasks) {
+             executorService.submit(task);
+         }
+         executorService.shutdown();
+
+
+
+     }
+
+
+    private static void fetchDataAndDisplayPB(MainController controller) {
+        Platform.runLater(() -> controller.setPb95Data(null));
     }
+
+    private static void fetchDataAndDisplayPB98(MainController controller) {
+        Platform.runLater(() -> controller.setPb98Data(null));
+    }
+
+    private static void fetchDataAndDisplayON(MainController controller) {
+        Platform.runLater(() -> controller.setOnData(null));
+    }
+
+    private static void fetchDataAndDisplayLPG(MainController controller) {
+        Platform.runLater(() -> controller.setLpgDataData(null));
+    }
+
     private static final Logger logger = LogManager.getLogger(Main.class);
     private static String url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/";
     public static void main(String[] args) {
-//        SwingUtilities.invokeLater(() -> createAndShowGUI());
         launch(args);
     }
     protected void exitApplication(){
@@ -46,12 +77,14 @@ public class Main extends Application {
     }
 
 
-    public static BufferedImage fetchChart(String whichchart) throws IOException {
+    public static List<BufferedImage> fetchChart() throws IOException {
         url = "https://www.e-petrol.pl/notowania/rynek-krajowy/ceny-stacje-paliw";
         String savePath = "charts\\";
 
         Connection.Response response = Jsoup.connect(url).execute();
         logger.info("Nawiązywanie połączenia...");
+        ArrayList<BufferedImage> chartList = new ArrayList<>();
+
 
         if (response.statusCode() == 200) {
             logger.info("Nawiązano połączenie");
@@ -72,12 +105,12 @@ public class Main extends Application {
             logger.info("utworzono plik chart7_0.png");
             BufferedImage chart3 = ImageIO.read(new File("charts\\chart8_0.png"));
             logger.info("utworzono plik chart8_0.png");
+            chartList.add(chart1);
+            chartList.add(chart2);
+            chartList.add(chart3);
+            return chartList;
 
 
-            if (whichchart.equals("chart1")){return chart1;}
-            else if (whichchart.equals("chart2")){return chart2;}
-            else if (whichchart.equals("chart3")){return chart3;}
-            else {logger.warn("nie wybrano poprawnego wykresu! Wybierz chart 1-3");}
         }
         logger.error("Nie załadowano zdjęć");
         return null;
@@ -85,7 +118,6 @@ public class Main extends Application {
     }
 
     private static void downloadImage(String imgUrl, String savePath) throws IOException {
-        URL url = new URL(imgUrl);
         try (OutputStream out = new FileOutputStream(savePath)) {
             out.write(Jsoup.connect(imgUrl).ignoreContentType(true).execute().bodyAsBytes());
             logger.info("Obraz został zapisany w: " + savePath);
@@ -93,143 +125,143 @@ public class Main extends Application {
     }
 
     public static String checkPB() {
-        url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/";
+
+        StringBuilder result = new StringBuilder();
         try {
-            Connection.Response response = Jsoup.connect(url).execute();
-            logger.info("Nawiązywanie połączenia...");
-            if (response.statusCode() == 200) {
-                logger.info("Nawiązano połączenie");
-                Document document = response.parse();
 
-                Elements names = document.select(".address");
-                Elements addresses = document.select(".name.shorter");
-                Elements prices = document.select(".petrol.pb");
+            for (int page = 1; page <= 4; page++) {
+                String url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb/strona-" + page + "/";
+                Connection.Response response = Jsoup.connect(url).execute();
+                if (response.statusCode() == 200) {
+                    logger.info("Nawiązano połączenie ze strona " + url);
+                    Document document = response.parse();
+
+                    Elements names = document.select(".address");
+                    Elements addresses = document.select(".name.shorter");
+                    Elements prices = document.select(".petrol.pb");
 
 
-                StringBuilder result = new StringBuilder();
-                for(int i = 0; i < names.size(); i++){
-                    result.append("Stajca: ").append(names.get(i).text()).append("\n");
-                    result.append("Adres: ").append(addresses.get(i).text()).append("\n");
-                    result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.pb").get(i).text().trim()).append("\n");
-                    result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
-                    result.append("\n");
+                    for (int i = 0; i < names.size(); i++) {
+                        result.append("Stajca: ").append(names.get(i).text()).append("\n");
+                        result.append("Adres: ").append(addresses.get(i).text()).append("\n");
+                        result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.pb").get(i).text().trim()).append("\n");
+                        result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
+                        result.append("\n");
+                    }
+                } else {
+                    logger.error("Nie udało się pobrac danych");
+                    return null;
                 }
-//                JFrame newDataFrame = new JFrame("Dane dla PB 95");
-//                JTextArea newDataTextArea = new JTextArea(result.toString());
-//                JScrollPane newDataScrollPane = new JScrollPane(newDataTextArea);
-//                newDataFrame.getContentPane().add(newDataScrollPane);
-//                newDataFrame.setSize(600, 500);
-//                newDataFrame.setLocationRelativeTo(null);
-//                newDataFrame.setVisible(true);
-                    return result.toString();
-
-            }
-            else{
-                logger.error("Nie udało się pobrac danych");
             }
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
+            return null;
         }
-        return null;
+        return result.toString();
+
     }
     public static String checkPB98() {
-        url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/";
+        StringBuilder result = new StringBuilder();
+
         try {
-            Connection.Response response = Jsoup.connect(url).execute();
-            logger.info("Nawiązywanie połączenia...");
-            if (response.statusCode() == 200) {
-                logger.info("Nawiązano połączenie");
-                Document document = response.parse();
+                String url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/pb-premium/strona-1";
+                Connection.Response response = Jsoup.connect(url).execute();
+                if (response.statusCode() == 200) {
+                    logger.info("Nawiązano połączenie ze strona " + url);
+                    Document document = response.parse();
 
-                Elements names = document.select(".address");
-                Elements addresses = document.select(".name.shorter");
-                Elements prices = document.select(".petrol.pbp");
+                    Elements names = document.select(".address");
+                    Elements addresses = document.select(".name.shorter");
+                    Elements prices = document.select(".petrol.pbp");
+                    for (int i = 0; i < names.size(); i++) {
+                        result.append("Stajca: ").append(names.get(i).text()).append("\n");
+                        result.append("Adres: ").append(addresses.get(i).text()).append("\n");
+                        result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.pbp").get(i).text().trim()).append("\n");
+                        result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
+                        result.append("\n");
+                    }
 
-
-                StringBuilder result = new StringBuilder();
-                for(int i = 0; i < names.size(); i++){
-                    result.append("Stajca: ").append(names.get(i).text()).append("\n");
-                    result.append("Adres: ").append(addresses.get(i).text()).append("\n");
-                    result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.pbp").get(i).text().trim()).append("\n");
-                    result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
-                    result.append("\n");
+                } else {
+                    logger.error("Nie udało się pobrac danych");
+                    return null;
                 }
-                return result.toString();
 
-            }
-            else{
-                logger.error("Nie udało się pobrac danych");
-            }
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
+            return null;
         }
-        return null;
+        return result.toString();
+
     }
     public static String checkON() {
-        url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/";
+        StringBuilder result = new StringBuilder();
         try {
-            Connection.Response response = Jsoup.connect(url).execute();
-            logger.info("Nawiązywanie połączenia...");
-            if (response.statusCode() == 200) {
-                logger.info("Nawiązano połączenie");
-                Document document = response.parse();
+            for (int page = 1; page <= 4; page++) {
+                String url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/on/strona-" + page + "/";
+                Connection.Response response = Jsoup.connect(url).execute();
+                if (response.statusCode() == 200) {
+                    logger.info("Nawiązano połączenie ze strona " + url);
+                    Document document = response.parse();
 
-                Elements names = document.select(".address");
-                Elements addresses = document.select(".name.shorter");
-                Elements prices = document.select(".petrol.on");
+                    Elements names = document.select(".address");
+                    Elements addresses = document.select(".name.shorter");
+                    Elements prices = document.select(".petrol.on");
 
-
-                StringBuilder result = new StringBuilder();
-                for(int i = 0; i < names.size(); i++){
-                    result.append("Stajca: ").append(names.get(i).text()).append("\n");
-                    result.append("Adres: ").append(addresses.get(i).text()).append("\n");
-                    result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.on").get(i).text().trim()).append("\n");
-                    result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
-                    result.append("\n");
+                    for (int i = 0; i < names.size(); i++) {
+                        result.append("Stacja: ").append(names.get(i).text()).append("\n");
+                        result.append("Adres: ").append(addresses.get(i).text()).append("\n");
+                        result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.on").get(i).text().trim()).append("\n");
+                        result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
+                        result.append("\n");
+                    }
+                } else {
+                    logger.error("Nie udało się pobrać danych dla strony " + page);
+                    return null;
                 }
-                return result.toString();
-
-            }
-            else{
-                logger.error("Nie udało się pobrac danych");
             }
         } catch (IOException e) {
             logger.error("Błąd podczas pobierania strony");
+            return null;
+
         }
-        return null;
+        return result.toString();
     }
     public static String checkLPG() {
-        url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/";
+        StringBuilder result = new StringBuilder();
         try {
-            Connection.Response response = Jsoup.connect(url).execute();
-            logger.info("Nawiązywanie połączenia...");
-            if (response.statusCode() == 200) {
-                logger.info("Nawiązano połączenie");
-                Document document = response.parse();
+            for (int page = 1; page <= 4; page++) {
+                String url = "https://www.autocentrum.pl/paliwa/ceny-paliw/malopolskie/lpg/strona-" + page + "/";
+                Connection.Response response = Jsoup.connect(url).execute();
+                if (response.statusCode() == 200) {
+                    logger.info("Nawiązano połączenie ze strona " + url);
+                    Document document = response.parse();
 
-                Elements names = document.select(".address");
-                Elements addresses = document.select(".name.shorter");
-                Elements prices = document.select(".petrol.lpg");
+                    Elements names = document.select(".address");
+                    Elements addresses = document.select(".name.shorter");
+                    Elements prices = document.select(".petrol.lpg");
 
 
-                StringBuilder result = new StringBuilder();
-                for(int i = 0; i < names.size(); i++){
-                    result.append("Stajca: ").append(names.get(i).text()).append("\n");
-                    result.append("Adres: ").append(addresses.get(i).text()).append("\n");
-                    result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.lpg").get(i).text().trim()).append("\n");
-                    result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
-                    result.append("\n");
+                    for(int i = 0; i < names.size(); i++){
+                        result.append("Stajca: ").append(names.get(i).text()).append("\n");
+                        result.append("Adres: ").append(addresses.get(i).text()).append("\n");
+                        result.append("Rodzaj paliwa: ").append(prices.select(".fuel-logo.lpg").get(i).text().trim()).append("\n");
+                        result.append("Cena paliwa: ").append(prices.get(i).text().trim()).append("\n");
+                        result.append("\n");
+                    }
+
+
                 }
-                return result.toString();
+                else{
+                    logger.error("Nie udało się pobrac danych");
+                    return null;
+                    }
 
-            }
-            else{
-                logger.error("Nie udało się pobrac danych");
-            }
+                }
         } catch (IOException e) {
-            logger.error("Błąd podczas pobierania strony");
+                logger.error("Błąd podczas pobierania strony");
+                return null;
         }
-        return null;
+        return result.toString();
     }
 
 
